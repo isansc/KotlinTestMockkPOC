@@ -8,9 +8,10 @@ import io.mockk.spyk
 class GradeCalculatorSpec: BehaviorSpec({
 
     Given("a grade calculator"){
-        val calculator  = spyk(GradeCalculator())
+        val calculator  = spyk(GradeCalculator()) // Using Mockk to wrap the GradeCalculator class to make it mockable
 
-        every{ calculator.totalMarks } returns 100
+        every{ calculator.totalMarks } returns 100 // Mocking the output of totalMarks to be always 100
+
         val total = calculator.totalMarks
 
         When("obtained marks are 90 or above"){
