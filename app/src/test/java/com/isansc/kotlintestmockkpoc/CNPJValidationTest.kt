@@ -1,5 +1,7 @@
 package com.isansc.kotlintestmockkpoc
 
+import com.isansc.kotlintestmockkpoc.tools.CNPJ
+import com.isansc.kotlintestmockkpoc.tools.isValid
 import io.kotlintest.matchers.boolean.shouldBeFalse
 import io.kotlintest.matchers.boolean.shouldBeTrue
 import io.kotlintest.specs.BehaviorSpec

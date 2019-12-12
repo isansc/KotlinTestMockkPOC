@@ -1,7 +1,8 @@
-package com.isansc.kotlintestmockkpoc
+package com.isansc.kotlintestmockkpoc.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.isansc.kotlintestmockkpoc.R
 
 class MainActivity : AppCompatActivity() {
 

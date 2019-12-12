@@ -1,4 +1,4 @@
-package com.isansc.kotlintestmockkpoc
+package com.isansc.kotlintestmockkpoc.tools
 
 /**
  * Example to test Mockk, from the page https://www.baeldung.com/kotlin-mockk

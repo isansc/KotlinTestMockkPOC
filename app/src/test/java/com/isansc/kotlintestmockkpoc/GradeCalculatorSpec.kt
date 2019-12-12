@@ -1,5 +1,6 @@
 package com.isansc.kotlintestmockkpoc
 
+import com.isansc.kotlintestmockkpoc.tools.GradeCalculator
 import io.kotlintest.shouldBe
 import io.kotlintest.specs.BehaviorSpec
 import io.mockk.every

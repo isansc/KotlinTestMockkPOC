@@ -1,4 +1,4 @@
-package com.isansc.kotlintestmockkpoc
+package com.isansc.kotlintestmockkpoc.tools
 
 
 /**
@@ -8,9 +8,17 @@ data class CNPJ(val value: String)
 
 fun CNPJ.isValid(): Boolean {
     val cnpj = value
-    return validateCNPJLength(cnpj) && validateCNPJRepeatedNumbers(cnpj)
-            && validateCNPJVerificationDigit(true, cnpj)
-            && validateCNPJVerificationDigit(false, cnpj)
+    return validateCNPJLength(cnpj) && validateCNPJRepeatedNumbers(
+        cnpj
+    )
+            && validateCNPJVerificationDigit(
+        true,
+        cnpj
+    )
+            && validateCNPJVerificationDigit(
+        false,
+        cnpj
+    )
 }
 
 /**

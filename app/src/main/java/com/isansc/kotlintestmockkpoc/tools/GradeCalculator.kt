@@ -1,4 +1,4 @@
-package com.isansc.kotlintestmockkpoc
+package com.isansc.kotlintestmockkpoc.tools
 
 import kotlin.math.roundToInt
 

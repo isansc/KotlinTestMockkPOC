@@ -1,5 +1,6 @@
 package com.isansc.kotlintestmockkpoc
 
+import com.isansc.kotlintestmockkpoc.tools.TestableService
 import io.kotlintest.shouldBe
 import io.kotlintest.specs.ExpectSpec
 import io.mockk.every
