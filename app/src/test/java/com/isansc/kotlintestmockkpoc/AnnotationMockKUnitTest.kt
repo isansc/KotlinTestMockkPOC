@@ -5,7 +5,6 @@ import com.isansc.kotlintestmockkpoc.tools.InjectTestService
 import com.isansc.kotlintestmockkpoc.tools.TestableService
 import com.isansc.kotlintestmockkpoc.tools.TestableSingletonService
 import io.kotlintest.shouldBe
-import io.kotlintest.specs.AbstractAnnotationSpec
 import io.kotlintest.specs.AnnotationSpec
 import io.mockk.*
 import io.mockk.impl.annotations.InjectMockKs
